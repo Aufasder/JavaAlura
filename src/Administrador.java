@@ -1,4 +1,4 @@
-public class Administrador extends Funcionario {
+public class Administrador extends Auth {
 
     @Override
     public double getBonificacion() {
