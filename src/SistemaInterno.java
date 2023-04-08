@@ -1,7 +1,7 @@
 public class SistemaInterno {
     private String llave = "12345"; 
 
-    public boolean autenticar(Auth gerente) {
+    public boolean autenticar(IAuth gerente) {
         boolean puedeIniciarSesion = gerente.iniciarSesion(llave);
         if (puedeIniciarSesion){
             System.out.println("Login Exitoso");
